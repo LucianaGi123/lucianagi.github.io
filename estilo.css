@@ -1,0 +1,35 @@
+
+  section {
+    width: 1000px;
+    border: 70px solid blanchedalmond;
+    padding: 50px;
+    margin: 20px;
+  }
+
+
+h1 { 
+    color: orange; font-size:44px ; 
+    font-weight: bold; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    width: 800px;
+    text-align: center;
+    border: 80px solid blanchedalmond;
+
+    
+}
+
+h2 {
+    color: black; font-size:44px ; 
+    font-weight: bold; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    width: 800px;
+    text-align: left
+    
+
+}
+
+p {
+  font-family: 'Climate Crisis', cursive;
+font-family: 'Roboto', sans-serif;
+
+}
