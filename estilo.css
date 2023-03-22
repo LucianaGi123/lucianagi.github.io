@@ -1,7 +1,31 @@
-
 * {
-  box-sizing: border-box; max-width: 100%; height: auto;
+  box-sizing: border-box;
+  max-width: 100%;
+  height: auto;
 }
+
+.encabezado {
+  width: 70%;
+  margin: 0 15%;
+  display: flex;
+  justify-content: center;
+}
+
+
+.encabezado ul {
+
+  list-style-type: none;
+}
+
+.encabezado li {
+
+  background-color: #F6E3CA;
+  float: left;
+  text-align: center;
+  width: 20%;
+  margin: 0 2.5%;
+}
+
 
 .titulo1 {
   display: flex;
@@ -10,42 +34,70 @@
 
 
 section {
-    width: 1000px;
-    border: 20px solid #544f4f;
-    padding: 10px;
-    margin: 20px;
-    background-color: #fdf1e6;
-  }
+  width: 70%;
+  border: 20px solid #544f4f;
+  padding: 10px;
+  margin: 0 15%;
+  background-color: #fdf1e6;
+}
 
 
-h1 { 
+h1 {
 
-  color: grey; font-size:64px ; 
-  font-weight: bold; 
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  color: grey;
+  font-size: 64px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   width: 8000px;
   text-align: center;
   border: 10px solid grey;
 
 
-    
+
 }
 
 
 
 h2 {
-    color: black; font: size: 600px ; 
-    font-weight: bold; 
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-    width: 800px;
-    display: flex;
-    
+  color: black;
+  font: size: 600px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 800px;
+  display: flex;
+
 
 }
 
 p {
   font-family: 'Climate Crisis', cursive;
-font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
 
 }
 
+div {
+  font-size: 20px%;
+
+}
+
+.referenciaslaborales {
+
+  width: 100%;
+  margin: 0 0%;
+  display: flex;
+
+}
+
+
+.referenciaslaborales ul {
+
+  list-style-type: none;
+}
+
+.referenciaslaborales li {
+
+  float: left;
+  text-align: center;
+  margin: 2.5% 5%;
+
+}
