@@ -1,29 +1,44 @@
 
-  section {
+* {
+  box-sizing: border-box; max-width: 100%; height: auto;
+}
+
+.titulo1 {
+  display: flex;
+  justify-content: center;
+}
+
+
+section {
     width: 1000px;
-    border: 70px solid blanchedalmond;
-    padding: 50px;
+    border: 20px solid #544f4f;
+    padding: 10px;
     margin: 20px;
+    background-color: #fdf1e6;
   }
 
 
 h1 { 
-    color: orange; font-size:44px ; 
-    font-weight: bold; 
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-    width: 800px;
-    text-align: center;
-    border: 80px solid blanchedalmond;
+
+  color: grey; font-size:64px ; 
+  font-weight: bold; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  width: 8000px;
+  text-align: center;
+  border: 10px solid grey;
+
 
     
 }
 
+
+
 h2 {
-    color: black; font-size:44px ; 
+    color: black; font: size: 600px ; 
     font-weight: bold; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     width: 800px;
-    text-align: left
+    display: flex;
     
 
 }
@@ -33,3 +48,4 @@ p {
 font-family: 'Roboto', sans-serif;
 
 }
+
